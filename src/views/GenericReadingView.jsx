@@ -11,7 +11,7 @@ import { adultThemes } from "../config/themes";
 import ReadingLayout from "../components/ReadingLayout";
 import { getModeById } from "../config/modes";
 import { themeBackgrounds } from "../config/themeBackgrounds"; // ✅ Importar fondos
-import { motion } from "framer-motion"; // ✅ Importar motion
+import { motion } from "framer-motion"; // ✅ Importar motions
 
 const GenericReadingView = ({ modeId }) => {
   const { theme, setTheme } = useContext(ThemeContext);
