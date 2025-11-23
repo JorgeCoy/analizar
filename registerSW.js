@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/aileer-lectura-accesible/sw.js', { scope: '/aileer-lectura-accesible/' })})}
