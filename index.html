@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/aileer-lectura-accesible/vite.svg" />
 
-  <!-- ===== ESTO ES LO QUE HACE QUE SE VEA BRUTAL EN CELULAR ===== -->
+  <!-- ===== VIEWPORT Y PWA ===== -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#ffffff" />
   <link rel="apple-touch-icon" href="/aileer-lectura-accesible/pwa-192x192.png" />
@@ -13,12 +13,29 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
+  <!-- ===== PERFORMANCE OPTIMIZATIONS ===== -->
+  <!-- Preload critical resources -->
+  <!-- Resource hints for Core Web Vitals -->
+  <link rel="modulepreload" href="data:text/jsx;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JwppbXBvcnQgeyBjcmVhdGVSb290IH0gZnJvbSAncmVhY3QtZG9tL2NsaWVudCcKaW1wb3J0ICcuL2luZGV4LmNzcycKaW1wb3J0IEFwcCBmcm9tICcuL0FwcC5qc3gnCmltcG9ydCBBcHBQcm92aWRlciBmcm9tICcuL2NvbnRleHQvQXBwUHJvdmlkZXIuanN4JwoKY3JlYXRlUm9vdChkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdCcpKS5yZW5kZXIoCiAgPFN0cmljdE1vZGU+CiAgICA8QXBwUHJvdmlkZXI+CiAgICAgIDxBcHAgLz4KICAgIDwvQXBwUHJvdmlkZXI+CiAgPC9TdHJpY3RNb2RlPiwKKQ==" />
+
   <title>aLeer - Lectura Accesible</title>
-  <script type="module" crossorigin src="/aileer-lectura-accesible/assets/index-UiQNhCsY.js"></script>
-  <link rel="stylesheet" crossorigin href="/aileer-lectura-accesible/assets/index-Bq5eh0b9.css">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Herramienta avanzada de lectura accesible con técnicas de velocidad de lectura, soporte PDF y entrenamiento visual" />
+  <meta name="keywords" content="lectura, velocidad, accesibilidad, PDF, entrenamiento visual, dislexia" />
+  <meta name="author" content="aLeer Team" />
+  <meta property="og:title" content="aLeer - Lectura Accesible" />
+  <meta property="og:description"
+    content="Herramienta avanzada de lectura accesible con técnicas de velocidad de lectura" />
+  <meta property="og:type" content="website" />
+  <script type="module" crossorigin src="/aileer-lectura-accesible/assets/index-BRXbbdqT.js"></script>
+  <link rel="modulepreload" crossorigin href="/aileer-lectura-accesible/assets/react-vendor-CcRn9s_c.js">
+  <link rel="modulepreload" crossorigin href="/aileer-lectura-accesible/assets/ui-vendor-DDe9ALYy.js">
+  <link rel="stylesheet" crossorigin href="/aileer-lectura-accesible/assets/index-B6_J4kU0.css">
 <link rel="manifest" href="/aileer-lectura-accesible/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/aileer-lectura-accesible/registerSW.js"></script></head>
 
-<body class="bg-black">
+<body>
   <div id="root"></div>
 </body>
 
